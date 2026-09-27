@@ -1,0 +1,14 @@
+.local/
+config.local.json
+overrides.local.json
+**/manifest.json
+**/page_index.json
+**/stage_pages.local.json
+**/arc_cards.md
+**/draw_log*.jsonl
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+*.epub
+!books/*.epub

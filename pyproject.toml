@@ -1,0 +1,12 @@
+[project]
+name = "monogatari-bibliomancy"
+version = "0.1.0"
+description = "Local EPUB bibliomancy with reproducible page coordinates"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

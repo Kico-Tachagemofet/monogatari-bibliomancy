@@ -1,0 +1,8 @@
+{
+  "epub_dir": "./path/to/your/epubs",
+  "state_dir": "./.local/library",
+  "log_path": "./.local/draw_log.jsonl",
+  "target_chars": 1100,
+  "merge_tail_below": 400,
+  "fallback_threshold": 1600
+}
